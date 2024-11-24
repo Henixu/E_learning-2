@@ -1,0 +1,31 @@
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height:80px;background-color:#37434d;color:#ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa fa-globe"></i>BRAINHUB</a>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color:#ffffff;" href="#"><i class="fa fa-home"></i>&nbsp;Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color:#ffffff;" href="#"><i class="fa fa-wpexplorer"></i>Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Update to use routerLink for Angular routing -->
+                            <a class="nav-link desactive" style="color:#ffffff;" [routerLink]="'/profile'"><i class="fa fa-user-circle-o"></i>&nbsp;Profile</a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link desactive" style="color:#ffffff;" [routerLink]="'/register'"><i class="fa fa-sign-in"></i>&nbsp;Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>

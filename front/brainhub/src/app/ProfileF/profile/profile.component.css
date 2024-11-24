@@ -1,0 +1,140 @@
+body {
+    background-color: #beb7b7; /* Fond gris pour le body */
+}
+profile-card {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa; /* Fond gris clair pour la carte de profil */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Cercle pour l'image de profil */
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h2 {
+    color: #007bff; /* Bleu Bootstrap pour le nom */
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    color: #6c757d; /* Gris Bootstrap pour le texte secondaire */
+}
+
+.contact-info p {
+    margin: 0;
+    color: #333; /* Texte sombre pour les informations de contact */
+    font-size: 14px;
+}
+
+.tabs button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #6c757d; /* Gris pour les onglets */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.tabs button:hover {
+    background-color: #5a6268; /* Assombrissement au survol */
+}
+
+.projects-section {
+    
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.projects-section h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    border: #8a8484 solid 1px;
+    width: 100%;
+    background-color: #f8f9fa; /* Fond gris clair pour chaque carte de projet */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.project-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.project-card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 14px;
+    color: #999;
+}
+
+.badge-warning {
+    background-color: #ffc107; /* Jaune pour statut "Pending" */
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.badge-success {
+    background-color: #28a745; /* Vert pour statut "Completed" */
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.badge-primary {
+    background-color: #007bff; /* Bleu pour statut "In Progress" */
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.skills-section {
+    
+    background-color: #f8f9fa; /* Fond gris clair pour la section des compétences */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.skills-section h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.badge-skill {
+    background-color: rgba(128, 128, 128, 0.3); /* Gris transparent */
+    color: #333; /* Couleur du texte sombre */
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    margin-right: 10px; /* Espacement entre les badges */
+    margin-bottom: 10px; /* Espacement vertical */
+    display: inline-block; /* Pour permettre le bon alignement */
+}

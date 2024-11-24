@@ -1,0 +1,13 @@
+<div class="popup-container">
+    <h2>Options</h2>
+    <div class="buttons-container">
+      <button (click)="addToList('AI')">AI</button>
+      <button (click)="addToList('Marketing')">Marketing</button>
+      <button (click)="addToList('Web Full Stack')">Web Full Stack</button>
+    </div>
+    
+    <h3>Selected Options:</h3>
+    <ul>
+      <li *ngFor="let option of selectedOptions">{{ option }}</li>
+    </ul>
+  </div>
